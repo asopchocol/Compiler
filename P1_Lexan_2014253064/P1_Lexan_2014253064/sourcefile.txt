@@ -1,0 +1,13 @@
+%d\n", te);
+  /* this is 
+   comment. */
+ // Clamp cells of the image part of V0 by the test example.
+for (r = 0; r < 28; r++) {
+	for (c = 0; c < 28; c++) {
+		V0[r * 28 + c] = Test_Data[te][r][c] / 255; // scale to 0 ~ 1.
+	}
+} // for r.
+// Units of label part of V0 is set to mid value 0.5 since they are unknown.
+for (i = 0; i < 10; i++) {
+	V0[784 + i] = 0.5E-4; // 일단 중간 값으로 해 놓음.
+}

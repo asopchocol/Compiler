@@ -1,0 +1,39 @@
+  	id	num	rop	 +	 -	 *	 /	 %	 =	->	 !	 .	 ,	 &	++	--	+=	-=	 (	 )	 {	 }	 [	 ]	 :	 ;	 "	 '	 #	 |	 \	if	else	while	do	for	include	define	typedef	struct	int	char	float	double	void	return	case	then	true	eof	 $	
+  0	s 1	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	s 2	e	e	e	e	e	e	e	e	e	e	s 3	e	s 4	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	
+  1	e	e	e	e	e	e	e	e	s 7	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	
+  2	s 1	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	s 2	e	e	e	e	e	e	e	e	e	e	s 3	e	s 4	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	
+  3	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	s 9	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	
+  4	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	s10	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	
+  5	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	s11	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	a	
+  6	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	r 1	e	e	e	r 1	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	r 1	
+  7	s12	s13	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	s14	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	
+  8	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	s18	e	e	e	s11	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	
+  9	s12	s13	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	s14	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	
+ 10	s12	s13	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	s14	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	
+ 11	s 1	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	s 2	e	e	e	e	e	e	e	e	e	e	s 3	e	s 4	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	
+ 12	e	e	e	r13	r13	r13	r13	e	e	e	e	e	e	e	e	e	e	e	e	r13	e	r13	e	e	e	r13	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	r13	
+ 13	e	e	e	r14	r14	r14	r14	e	e	e	e	e	e	e	e	e	e	e	e	r14	e	r14	e	e	e	r14	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	r14	
+ 14	s12	s13	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	s14	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	
+ 15	e	e	e	s23	s24	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	r 4	e	e	e	r 4	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	r 4	
+ 16	e	e	e	r 7	r 7	s25	s26	e	e	e	e	e	e	e	e	e	e	e	e	r 7	e	r 7	e	e	e	r 7	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	r 7	
+ 17	e	e	e	r10	r10	r10	r10	e	e	e	e	e	e	e	e	e	e	e	e	r10	e	r10	e	e	e	r10	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	r10	
+ 18	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	r 3	e	e	e	r 3	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	r 3	
+ 19	e	e	e	s23	s24	e	e	e	e	e	e	e	e	e	e	e	e	e	e	s27	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	
+ 20	e	e	e	s23	s24	e	e	e	e	e	e	e	e	e	e	e	e	e	e	s28	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	
+ 21	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	r 2	e	e	e	r 2	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	r 2	
+ 22	e	e	e	s23	s24	e	e	e	e	e	e	e	e	e	e	e	e	e	e	s29	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	
+ 23	s12	s13	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	s14	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	
+ 24	s12	s13	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	s14	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	
+ 25	s12	s13	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	s14	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	
+ 26	s12	s13	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	s14	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	
+ 27	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	s34	e	e	e	
+ 28	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	s35	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	
+ 29	e	e	e	r15	r15	r15	r15	e	e	e	e	e	e	e	e	e	e	e	e	r15	e	r15	e	e	e	r15	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	r15	
+ 30	e	e	e	r 8	r 8	s25	s26	e	e	e	e	e	e	e	e	e	e	e	e	r 8	e	r 8	e	e	e	r 8	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	r 8	
+ 31	e	e	e	r 9	r 9	s25	s26	e	e	e	e	e	e	e	e	e	e	e	e	r 9	e	r 9	e	e	e	r 9	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	r 9	
+ 32	e	e	e	r11	r11	r11	r11	e	e	e	e	e	e	e	e	e	e	e	e	r11	e	r11	e	e	e	r11	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	r11	
+ 33	e	e	e	r12	r12	r12	r12	e	e	e	e	e	e	e	e	e	e	e	e	r12	e	r12	e	e	e	r12	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	r12	
+ 34	s 1	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	s 2	e	e	e	e	e	e	e	e	e	e	s 3	e	s 4	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	
+ 35	s 1	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	s 2	e	e	e	e	e	e	e	e	e	e	s 3	e	s 4	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	
+ 36	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	r 5	e	e	e	r 5	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	r 5	
+ 37	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	r 6	e	e	e	r 6	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	e	r 6	

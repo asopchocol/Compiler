@@ -1,0 +1,6 @@
+  xy = val1 + sum ;
+  u = 34 * vv ;
+  while ( a + b )  do
+     x = 11.23;
+  if ( u) then 
+     y = z

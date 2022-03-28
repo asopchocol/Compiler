@@ -1,0 +1,19 @@
+// »ê¼ú½Ä, left recursion is removed. Grammar definition must start at the 3rd line.
+
+L   S    A	E   T   F
+id  num   :=   ;   +   -   *	   /    (	)	{	}	 %
+
+L -> A S
+S -> epsilon
+S -> A S
+A -> id := E ;
+A -> { S }
+E -> T
+E -> E + T
+E -> E - T
+T -> F
+T -> T * F
+T -> T / F
+F -> ( E )
+F -> id
+F -> num

@@ -1,0 +1,17 @@
+﻿  소스.cpp
+C:\Users\User\source\repos\P3_ReadingGrammer_2014253064\P3_ReadingGrammer_2014253064\소스.cpp(52): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(133): note: 'strcpy' 선언을 참조하십시오.
+C:\Users\User\source\repos\P3_ReadingGrammer_2014253064\P3_ReadingGrammer_2014253064\소스.cpp(49): warning C4101: 'first_result' :참조되지 않은 지역 변수입니다.
+C:\Users\User\source\repos\P3_ReadingGrammer_2014253064\P3_ReadingGrammer_2014253064\소스.cpp(195): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\User\source\repos\P3_ReadingGrammer_2014253064\P3_ReadingGrammer_2014253064\소스.cpp(226): warning C4018: '>=': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\User\source\repos\P3_ReadingGrammer_2014253064\P3_ReadingGrammer_2014253064\소스.cpp(109): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(208): note: 'fopen' 선언을 참조하십시오.
+C:\Users\User\source\repos\P3_ReadingGrammer_2014253064\P3_ReadingGrammer_2014253064\소스.cpp(127): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(133): note: 'strcpy' 선언을 참조하십시오.
+C:\Users\User\source\repos\P3_ReadingGrammer_2014253064\P3_ReadingGrammer_2014253064\소스.cpp(144): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(133): note: 'strcpy' 선언을 참조하십시오.
+C:\Users\User\source\repos\P3_ReadingGrammer_2014253064\P3_ReadingGrammer_2014253064\소스.cpp(184): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(133): note: 'strcpy' 선언을 참조하십시오.
+C:\Users\User\source\repos\P3_ReadingGrammer_2014253064\P3_ReadingGrammer_2014253064\소스.cpp(221): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(133): note: 'strcpy' 선언을 참조하십시오.
+  P3_ReadingGrammer_2014253064.vcxproj -> C:\Users\User\source\repos\P3_ReadingGrammer_2014253064\Debug\P3_ReadingGrammer_2014253064.exe

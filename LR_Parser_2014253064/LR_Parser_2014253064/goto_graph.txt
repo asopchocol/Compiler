@@ -1,0 +1,137 @@
+ID[ 0] (  7) : L' -> . L      L -> . S      L -> . L ; S      S -> . { L }      S -> . id = E      S -> . if ( E ) then S      S -> . while ( E ) do S      
+ID[ 1] (  1) : S -> id . = E      
+ID[ 2] (  7) : S -> { . L }      L -> . S      L -> . L ; S      S -> . { L }      S -> . id = E      S -> . if ( E ) then S      S -> . while ( E ) do S      
+ID[ 3] (  1) : S -> if . ( E ) then S      
+ID[ 4] (  1) : S -> while . ( E ) do S      
+ID[ 5] (  2) : L' -> L .     L -> L . ; S      
+ID[ 6] (  1) : L -> S .     
+ID[ 7] ( 10) : S -> id = . E      E -> . T      E -> . E + T      E -> . E - T      T -> . F      T -> . T * F      T -> . T / F      F -> . id      F -> . num      F -> . ( E )      
+ID[ 8] (  2) : S -> { L . }      L -> L . ; S      
+ID[ 9] ( 10) : S -> if ( . E ) then S      E -> . T      E -> . E + T      E -> . E - T      T -> . F      T -> . T * F      T -> . T / F      F -> . id      F -> . num      F -> . ( E )      
+ID[10] ( 10) : S -> while ( . E ) do S      E -> . T      E -> . E + T      E -> . E - T      T -> . F      T -> . T * F      T -> . T / F      F -> . id      F -> . num      F -> . ( E )      
+ID[11] (  5) : L -> L ; . S      S -> . { L }      S -> . id = E      S -> . if ( E ) then S      S -> . while ( E ) do S      
+ID[12] (  1) : F -> id .     
+ID[13] (  1) : F -> num .     
+ID[14] ( 10) : F -> ( . E )      E -> . T      E -> . E + T      E -> . E - T      T -> . F      T -> . T * F      T -> . T / F      F -> . id      F -> . num      F -> . ( E )      
+ID[15] (  3) : S -> id = E .     E -> E . + T      E -> E . - T      
+ID[16] (  3) : E -> T .     T -> T . * F      T -> T . / F      
+ID[17] (  1) : T -> F .     
+ID[18] (  1) : S -> { L } .     
+ID[19] (  3) : S -> if ( E . ) then S      E -> E . + T      E -> E . - T      
+ID[20] (  3) : S -> while ( E . ) do S      E -> E . + T      E -> E . - T      
+ID[21] (  1) : L -> L ; S .     
+ID[22] (  3) : F -> ( E . )      E -> E . + T      E -> E . - T      
+ID[23] (  7) : E -> E + . T      T -> . F      T -> . T * F      T -> . T / F      F -> . id      F -> . num      F -> . ( E )      
+ID[24] (  7) : E -> E - . T      T -> . F      T -> . T * F      T -> . T / F      F -> . id      F -> . num      F -> . ( E )      
+ID[25] (  4) : T -> T * . F      F -> . id      F -> . num      F -> . ( E )      
+ID[26] (  4) : T -> T / . F      F -> . id      F -> . num      F -> . ( E )      
+ID[27] (  1) : S -> if ( E ) . then S      
+ID[28] (  1) : S -> while ( E ) . do S      
+ID[29] (  1) : F -> ( E ) .     
+ID[30] (  3) : E -> E + T .     T -> T . * F      T -> T . / F      
+ID[31] (  3) : E -> E - T .     T -> T . * F      T -> T . / F      
+ID[32] (  1) : T -> T * F .     
+ID[33] (  1) : T -> T / F .     
+ID[34] (  5) : S -> if ( E ) then . S      S -> . { L }      S -> . id = E      S -> . if ( E ) then S      S -> . while ( E ) do S      
+ID[35] (  5) : S -> while ( E ) do . S      S -> . { L }      S -> . id = E      S -> . if ( E ) then S      S -> . while ( E ) do S      
+ID[36] (  1) : S -> if ( E ) then S .     
+ID[37] (  1) : S -> while ( E ) do S .     
+Total number of states = 38
+
+Goto arcs:
+From To Symbol
+   0    1     id 
+   0    2     { 
+   0    3     if 
+   0    4     while 
+   0    5     L 
+   0    6     S 
+   1    7     = 
+   2    1     id 
+   2    2     { 
+   2    3     if 
+   2    4     while 
+   2    8     L 
+   2    6     S 
+   3    9     ( 
+   4   10     ( 
+   5   11     ; 
+   7   12     id 
+   7   13     num 
+   7   14     ( 
+   7   15     E 
+   7   16     T 
+   7   17     F 
+   8   18     } 
+   8   11     ; 
+   9   12     id 
+   9   13     num 
+   9   14     ( 
+   9   19     E 
+   9   16     T 
+   9   17     F 
+  10   12     id 
+  10   13     num 
+  10   14     ( 
+  10   20     E 
+  10   16     T 
+  10   17     F 
+  11    1     id 
+  11    2     { 
+  11    3     if 
+  11    4     while 
+  11   21     S 
+  14   12     id 
+  14   13     num 
+  14   14     ( 
+  14   22     E 
+  14   16     T 
+  14   17     F 
+  15   23     + 
+  15   24     - 
+  16   25     * 
+  16   26     / 
+  19   23     + 
+  19   24     - 
+  19   27     ) 
+  20   23     + 
+  20   24     - 
+  20   28     ) 
+  22   23     + 
+  22   24     - 
+  22   29     ) 
+  23   12     id 
+  23   13     num 
+  23   14     ( 
+  23   30     T 
+  23   17     F 
+  24   12     id 
+  24   13     num 
+  24   14     ( 
+  24   31     T 
+  24   17     F 
+  25   12     id 
+  25   13     num 
+  25   14     ( 
+  25   32     F 
+  26   12     id 
+  26   13     num 
+  26   14     ( 
+  26   33     F 
+  27   34     then 
+  28   35     do 
+  30   25     * 
+  30   26     / 
+  31   25     * 
+  31   26     / 
+  34    1     id 
+  34    2     { 
+  34    3     if 
+  34    4     while 
+  34   36     S 
+  35    1     id 
+  35    2     { 
+  35    3     if 
+  35    4     while 
+  35   37     S 
+Total number of arcs = 94
